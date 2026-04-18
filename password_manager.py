@@ -17,10 +17,7 @@ def encrypt_passwords_in_file(filename):
  
     for i in range(1, len(rows)):
         rows[i][2] = caesar_encrypt(rows[i][2])
- 
-    with open(filename, 'w') as file:
-        writer = csv.writer(file)
-        writer.writerows(rows)
+
  
 
 

@@ -12,8 +12,7 @@ encrypt_passwords_in_file(filename)
         space = entry.find(' ')
  
       
-        if len(new_password) < 12:
-            print("Password is too short!")
+
             continue
  
         result = change_password(filename, website, new_password)

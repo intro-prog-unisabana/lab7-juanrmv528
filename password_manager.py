@@ -44,8 +44,6 @@ def change_password(filename, website, password):
  
     return True
  
- 
-def add_login(filename, website_name, username, password):
-    encrypted = caesar_encrypt(password)
+
 
      

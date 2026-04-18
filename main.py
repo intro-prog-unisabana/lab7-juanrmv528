@@ -5,9 +5,7 @@ filename = input()
  
 encrypt_passwords_in_file(filename)
  
-while True:
-    print("Options: (1) Change Password, (2) Add Password, (3) Quit:")
-    option = input()
+
  
   
  

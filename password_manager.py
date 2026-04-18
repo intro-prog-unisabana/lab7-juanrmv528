@@ -26,7 +26,7 @@ def encrypt_passwords_in_file(filename):
 def change_password(filename, website, password):
     with open(filename, 'r') as file:
         lector = csv.reader(file)
-        rows = [row for row in lector if row]
+
 
 
 

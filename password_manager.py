@@ -30,11 +30,6 @@ def change_password(filename, website, password):
  
     found = False
     for row in rows:
-        if row[0] == website:
-            row[2] = caesar_encrypt(password)
-            found = True
-            break
- 
 
  
 

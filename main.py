@@ -61,8 +61,7 @@ while True:
         add_login(filename, website, username, password)
         print("Login added.")
  
-    elif option == '3':
-        break
+    
  
     else:
         print("Invalid option selected!")

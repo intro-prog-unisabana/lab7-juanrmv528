@@ -38,12 +38,6 @@ def change_password(filename, website, password):
     if not found:
         return False
  
-    with open(filename, 'w') as file:
-        writer = csv.writer(file)
-        writer.writerows(rows)
- 
-    return True
- 
 
 
      

@@ -35,8 +35,7 @@ def change_password(filename, website, password):
             found = True
             break
  
-    if not found:
-        return False
+
  
 
 

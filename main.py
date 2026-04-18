@@ -49,14 +49,14 @@ while True:
         space2 = rest.find(' ')
  
         if space2 == -1:
-            print("Input is in the wrong format!")
+            
             continue
  
         username = rest[0:space2]
         password = rest[space2 + 1:]
  
         if len(password) < 12:
-            print("Password is too short!"
+            print("Password is too short!")
             continue
  
         add_login(filename, website, username, password)

@@ -56,8 +56,7 @@ while True:
         password = rest[space2 + 1:]
  
         if len(password) < 12:
-            print("Password is too short!")
-            continue
+            
  
         add_login(filename, website, username, password)
         print("Login added.")

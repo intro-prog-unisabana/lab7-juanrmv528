@@ -32,8 +32,7 @@ while True:
         space1 = entry.find(' ')
  
         
-        website = entry[0:space1]
-        rest = entry[space1 + 1:]
+
  
         space2 = rest.find(' ')
  

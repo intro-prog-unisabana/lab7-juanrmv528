@@ -27,11 +27,7 @@ def change_password(filename, website, password):
     with open(filename, 'r') as file:
         lector = csv.reader(file)
         rows = [row for row in lector if row]
- 
-    found = False
-    for row in rows:
 
- 
 
 
      

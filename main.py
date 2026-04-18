@@ -33,10 +33,7 @@ while True:
  
         space1 = entry.find(' ')
  
-        if space1 == -1:
-            print("Input is in the wrong format!")
-            continue
- 
+        
         website = entry[0:space1]
         rest = entry[space1 + 1:]
  

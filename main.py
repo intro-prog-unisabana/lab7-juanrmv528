@@ -15,13 +15,7 @@ while True:
  
         space = entry.find(' ')
  
-        if space == -1:
-            print("Input is in the wrong format!")
-            continue
- 
-        website = entry[0:space]
-        new_password = entry[space + 1:]
- 
+      
         if len(new_password) < 12:
             print("Password is too short!")
             continue

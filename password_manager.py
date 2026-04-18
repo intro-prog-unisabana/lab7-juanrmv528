@@ -4,7 +4,7 @@ from caesar import caesar_encrypt
  
 def encrypt_single_pass(filename):
     with open(filename, 'r') as file:
-        password = file.read().strip()
+        password = file.read().strip(
     encrypted = caesar_encrypt(password)
     with open(filename, 'w') as file:
         file.write(encrypted)
@@ -49,4 +49,4 @@ def add_login(filename, website_name, username, password):
     encrypted = caesar_encrypt(password)
     with open(filename, 'a') as file:
         writer = csv.writer(file)
-        writer.writerows([[website_name, username, encrypted]]
+        writer.writerows([[website_name, username, encrypted]])

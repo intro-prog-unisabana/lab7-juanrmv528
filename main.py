@@ -26,7 +26,7 @@ while True:
             print("Password is too short!")
             continue
  
-        result = change_password(filename, website, new_password
+        result = change_password(filename, website, new_password)
  
         if result == False:
             print("Website not found! Operation failed.")
@@ -49,7 +49,7 @@ while True:
         space2 = rest.find(' ')
  
         if space2 == -1:
-            print("Input is in the wrong format!")
+            
             continue
  
         username = rest[0:space2]

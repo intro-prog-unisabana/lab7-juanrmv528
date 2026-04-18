@@ -20,9 +20,7 @@ encrypt_passwords_in_file(filename)
  
         if result == False:
             print("Website not found! Operation failed.")
-        else:
-            print("Password changed.")
- 
+     
     elif option == '2':
         print("Enter the website, username, and password:")
         entry = input()
